@@ -98,13 +98,15 @@
             <div class="row g-0">
                 <div class="col-lg-7">
                     <div class="bg-primary h-100 p-5">
-                        <form action="email.php">
+                        <form action="mail.php">
                             <div class="row g-3">
                                 <div class="col-6">
                                     <input type="text" class="form-control bg-light border-0 px-4" placeholder="Adınız" style="height: 55px;">
+                                    <label for="name"></label>
                                 </div>
                                 <div class="col-6">
                                     <input type="email" class="form-control bg-light border-0 px-4" placeholder="Email'iniz" style="height: 55px;">
+                                    <label for="email"></label>
                                 </div>
                                 <div class="field third">
                                               <font color="white">  <label>  Şehir Seçiniz </label> </font> 
@@ -120,7 +122,8 @@
                                                     <option value="">Kırşehir</option>
                                                     <option value="">Diyarbakır</option>
                                                     <option value="">Aydın</option>
-                                                </select> </font> 
+                                                </select>
+                                                <label for="sehir"></label> </font> 
                                             </div>
                                 <div class="form-group">
                                     <font color="white">   <label for="gender">Cinsiyet</label>
@@ -153,9 +156,11 @@
                         </div> </font> 
                                 <div class="col-12">
                                     <input type="text" class="form-control bg-light border-0 px-4" placeholder="Konu" style="height: 55px;">
+                                    <label for="konu"></label>
                                 </div>
                                 <div class="col-12">
                                     <textarea class="form-control bg-light border-0 px-4 py-3" rows="2" placeholder="Mesajınız"></textarea>
+                                    <label for="message"></label>
                                 </div>
                                 <div class="col-12">
                                     <button class="btn btn-secondary w-100 py-3" type="submit">Gönder</button>
