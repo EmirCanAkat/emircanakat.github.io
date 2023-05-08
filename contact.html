@@ -54,7 +54,7 @@
    <!-- Navbar Start -->
    <nav class="navbar navbar-expand-lg bg-primary navbar-dark shadow-sm py-3 py-lg-0 px-3 px-lg-5">
     <a href="index.html" class="navbar-brand d-flex d-lg-none">
-        <h1 class="m-0 display-4 text-secondary"><span class="text-white">Farm</span>Fresh</h1>
+        <h1 class="m-0 display-4 text-secondary"><span class="text-white">Sağlıklı</span>Yaşam</h1>
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
         <span class="navbar-toggler-icon"></span>
@@ -98,7 +98,7 @@
             <div class="row g-0">
                 <div class="col-lg-7">
                     <div class="bg-primary h-100 p-5">
-                        <form>
+                        <form action="email.php">
                             <div class="row g-3">
                                 <div class="col-6">
                                     <input type="text" class="form-control bg-light border-0 px-4" placeholder="Adınız" style="height: 55px;">
@@ -193,6 +193,17 @@
                                 <h5 class="text-white">Telefon Numaramız</h5>
                                 <span class="text-white">+533 112 4151</span>
                             </div>
+                            <script>
+                                function sendEmail() {
+                                    var name = document.getElementById("name").value;
+                                    var email = document.getElementById("email").value;
+                                    var message = document.getElementById("message").value;
+                                    var subject = "İletişim Formu Mesajı";
+                                    var body = "Adı: " + name + "\n\n" + "E-posta: " + email + "\n\n" + "Mesajı: " + message;
+                                    
+                                    window.location.href = "mailto:emircanakat9@gmail.comsubject=" + subject + "&body=" + body;
+                                }
+                            </script>
                         </div>
                     </div>
                 </div>
