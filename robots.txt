@@ -4,12 +4,11 @@ Disallow: /img
 Disallow: /js
 Disallow: /lib
 Disallow: /scss
-Disallow: /.htaccess
 Disallow: /loading.html
 Disallow: /blog.html
 Disallow: /detail.html
 Disallow: /feature.html
-Disallow: /assets/testimonial.html
+Disallow: /testimonial.html
 
 Allow: /index.html
 Allow: /about.html
@@ -17,7 +16,7 @@ Allow: /service.html
 Allow: /product.html
 Allow: /team.html
 Allow: /contact.html
-User-agent: Yandex
+User-agent: Opera
 Disallow: /
 
 User-agent: Yaani
