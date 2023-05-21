@@ -1,9 +1,9 @@
 User-agent: *
-Disallow: /css
-Disallow: /img
-Disallow: /js
-Disallow: /lib
-Disallow: /scss
+Disallow: /css/
+Disallow: /img/
+Disallow: /js/
+Disallow: /lib/
+Disallow: /scss/
 Disallow: /loading.html
 Disallow: /blog.html
 Disallow: /detail.html
