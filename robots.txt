@@ -1,0 +1,27 @@
+User-agent: *
+Disallow: /css
+Disallow: /img
+Disallow: /js
+Disallow: /lib
+Disallow: /scss
+Disallow: /.htaccess
+Disallow: /loading.html
+Disallow: /blog.html
+Disallow: /detail.html
+Disallow: /feature.html
+Disallow: /assets/testimonial.html
+
+Allow: /index.html
+Allow: /about.html
+Allow: /service.html
+Allow: /product.html
+Allow: /team.html
+Allow: /contact.html
+User-agent: Yandex
+Disallow: /
+
+User-agent: Yaani
+Disallow: /
+
+
+Sitemap: https://emircanakat.github.io.//sitemap.xml
