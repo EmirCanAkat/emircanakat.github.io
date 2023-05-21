@@ -16,7 +16,8 @@ Allow: /service.html
 Allow: /product.html
 Allow: /team.html
 Allow: /contact.html
-User-agent: Opera
+
+User-agent: Yandex
 Disallow: /
 
 User-agent: Yaani
