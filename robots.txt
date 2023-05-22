@@ -1,4 +1,4 @@
-User-agent: *
+dUser-agent: *
 Disallow: /loading.html
 
-Sitemap: https://emircanakat.github.io/sitemap.xml
+Sitemap: https://emircanakat.github.io//sitemap.xml
