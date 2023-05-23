@@ -1,4 +1,15 @@
-dUser-agent: *
+User-agent: *
 Disallow: /loading.html
+Disallow: /testimonial.html
+Disallow: /blog.html
+Disallow: /detail.html
+Disallow: /feature.html
+
+Allow: /index.html
+Allow: /about.html
+Allow: /services.html
+Allow: /product.html
+Allow: /team.html
+Allow: /contact.html
 
 Sitemap: https://emircanakat.github.io//sitemap.xml
